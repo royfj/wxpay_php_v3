@@ -1,0 +1,18 @@
+{
+    "name": "roy/wxpay_php_v3",
+    "description": "WeChat Pay PHP API V3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lgh",
+            "email": "cvtest001@163.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.6"
+    },
+    "autoload": {
+        "files": ["src/WxPay/lib/WxPay.Config.php", "src/WxPay/lib/WxPay.Api.php", "src/WxPay/lib/WxPay.Data.php"]
+    }
+}
